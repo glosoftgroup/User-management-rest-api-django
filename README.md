@@ -10,15 +10,19 @@ Installation
 ----------------
 Navigate to project folder
 install requirements
+----------------
 $ pip install -r requirements.text
 
 migrate database
+----------------
 $python manage.py migrate 
 
 create super user
+----------------
 $ python manage.py createsuperuser
 
 Then>
+----------------
 $ python manage.py runserver
 
 open your blowser and paste
